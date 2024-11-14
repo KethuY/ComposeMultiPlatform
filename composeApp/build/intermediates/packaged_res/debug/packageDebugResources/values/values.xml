@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black"> #041619</color>
+    <color name="blue"> #083042</color>
+    <color name="blue_light"> #3870B2</color>
+    <color name="green"> #37BF6E</color>
+    <string name="app_name">ComposeMultiProject</string>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        
+        <item name="windowSplashScreenBackground">@color/blue</item>
+
+        
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_background</item>
+        
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        
+        <item name="postSplashScreenTheme">@android:style/Theme.Material.Light.NoActionBar</item>
+    </style>
+</resources>
